@@ -1,2 +1,23 @@
-# Universal-Ticket-Generation-Service-for-Events
-Developed a ticket booking website which is used to book tickets for the concert, movies and sports events by using various API’s. Created ticket generation API for others and published on the Microsoft Azure cloud platform.  Technologies used: C#.NET, Microsoft Azure, Visual Studio 2017, Microsoft SQL Server 2017, Postman.
+EventTracker is Client Application.
+
+TicketAPI is Server Application [API]
+use this api by using "/BookTicket" argument.
+
+Inputs for API in JSON :
+{
+  
+  "EName": "Concert",
+
+  "Edate": "19/09/2018",
+  
+  "Etime": "18:00",
+
+  "Evenue": "Phoenix Park, Dublin",
+
+  "Ttype": "ADULT",
+
+  "Tquantity": "2",
+
+  "Trate": "260"
+
+}
